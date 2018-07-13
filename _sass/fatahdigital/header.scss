@@ -1,0 +1,25 @@
+.navbar-brand {
+  font-weight: 900;
+  color: #252a33;
+  transition: all .5s;
+  span {
+    transition: all .5s;
+    color: $first_color;
+  }
+}
+.navbar-brand:hover {
+  color: $first_color;
+  span {
+    color: #252a33;
+  }
+}
+.nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: all .5s;
+  color: $nav_menu_color;
+  &:hover{
+    color: $first_color;
+  }
+}
