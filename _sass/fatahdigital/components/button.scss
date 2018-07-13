@@ -1,0 +1,9 @@
+.home_btn {
+  padding: 15px 100px;
+  background-color: $primery-color;
+  color: $white_color;
+  &:hover{
+    color: $white_color;
+    text-decoration: none;
+  }
+}
