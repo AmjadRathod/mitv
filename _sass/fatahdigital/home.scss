@@ -39,34 +39,7 @@
   .row {
     margin-top: 30px;
   }
-  .channels_music {
-    height: 100%;
-    width: 100%;
-    background-color: $black_color;
-    transition: all .5s;
-    min-height: 400px;
-    &:hover {
-      opacity: .9;
-    }
-    .music_title {
-      color: $white_color;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      h1 {
-        font-weight: bold;
-        font-size: 48px;
-        span {
-          height: 5px;
-          width: 50px;
-          background-color: $primery-color;
-          display: inline-block;
-          margin-bottom: 10px;
-        }
-      }
-    }
-  }
+
   .sport {
     height: 500px;
     .play_btn {

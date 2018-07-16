@@ -1,0 +1,67 @@
+.about_hero1 {
+  background-color: #f7fcff;
+  position: relative;
+  .about_box {
+    padding-top: 180px;
+  }
+  .channels_music {
+    margin-top: 220px;
+    height: 50%;
+    position: relative;
+    .home_channel_title {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .about_rectangle {
+    height: 80vh;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #e91a1b;
+  }
+}
+.about_hero2 {
+  .sport {
+    margin-top: 100px;
+  }
+  .play_btn {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .box {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 400px;
+    margin-top: -100px;
+    background-color: rgb(248, 50, 63);
+  }
+}
+.about_hero3 {
+  .home_hero4 {
+    margin-top: 0;
+
+    .home_hero_news {
+      // background-color: $black_color;
+      background: url("/assets/images/about_news_vector.png") right top no-repeat, url("/assets/images/footer_backgound.png") left bottom no-repeat, rgb(0,0,0);
+      background-size: contain;
+      color: $white_color;
+    }
+
+    .home_news_title {
+      span {
+        margin-bottom: 7px;
+        background-color: $primery-color;
+      }
+    }
+    .blog {
+      &:hover {
+        background-color: $primery-color;
+      }
+    }
+  }
+}
