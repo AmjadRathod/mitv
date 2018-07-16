@@ -7,6 +7,13 @@
   .hero1_title {
     font-size: 72px;
     font-weight: 700;
+    span {
+      height: 5px;
+      width: 50px;
+      background-color: $primery-color;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
   }
   .home_content {
     position: absolute;
@@ -16,13 +23,101 @@
     position: absolute;
     right: 0;
     margin-top: 10vh;
-    width: 100%;
+    width: 40%;
     height: 90vh;
-    background-color: $primery-color;
+    background-color: #e91a1b;
   }
-  // .home_hero_img {
-  //   position: absolute;
-  //   height: 100vh;
-  //   width: 200%;
-  // }
+  .home_hero_img {
+    position: absolute;
+    height: 100vh;
+    left: 20%;
+    z-index: 100;
+  }
+}
+.home_hero2 {
+  padding-top: 60px;
+  .row {
+    margin-top: 30px;
+  }
+  .channels_music {
+    height: 100%;
+    width: 100%;
+    background-color: $black_color;
+    transition: all .5s;
+    min-height: 400px;
+    &:hover {
+      opacity: .9;
+    }
+    .music_title {
+      color: $white_color;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      h1 {
+        font-weight: bold;
+        font-size: 48px;
+        span {
+          height: 5px;
+          width: 50px;
+          background-color: $primery-color;
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .sport {
+    height: 500px;
+    .play_btn {
+      margin-top: 100px;
+    }
+  }
+}
+.home_hero4 {
+  margin-top: 100px;
+  .home_hero_news {
+    background-color: $primery-color;
+    color: $white_color;
+  }
+  .home_news_title {
+    font-weight: bold;
+    span {
+      height: 5px;
+      width: 35px;
+      background-color: $white_color;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
+  .blog {
+    padding: 30px 0;
+    transition: all .5s;
+    &:hover {
+      background-color: $black_color;
+    }
+    .avatar {
+      margin-top: 15px;
+      height: 36px;
+      width: 36px;
+      background-color: $white_color;
+      border-radius: 50px;
+      margin-left: auto;
+    }
+    h1 {
+      font-size: 30px;
+      font-weight: 400;
+    }
+  }
+}
+.home_hero_logo {
+  background-color: $black_color;
+  .home_logo {
+    background-color: $white_color;
+    // box-shadow: 0px 13px 72.21px 14.79px rgba(184, 185, 201, 0.38);
+    width: 100%;
+    .news_logo {
+      padding: 50px 0;
+    }
+  }
 }

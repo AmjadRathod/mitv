@@ -7,3 +7,45 @@
     text-decoration: none;
   }
 }
+.play_btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border: solid 1px $white_color;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  div {
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 4% 100%, 4% 4%, 98% 50%, 3% 95%, 0 100%, 100% 51%, 100% 49%);
+    clip-path: polygon(0% 0%, 0% 100%, 4% 100%, 4% 4%, 98% 50%, 3% 95%, 0 100%, 100% 51%, 100% 49%);
+    background-color: $white_color;
+    height: 30px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.shows_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home_channel_title {
+  padding-top: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: $white_color;
+  span {
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+  }
+}
+.wrapper {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
