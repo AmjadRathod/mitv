@@ -3,7 +3,7 @@
 - Name: "shows"
   Link: "#"
 - Name: "about"
-  Link: "#"
+  Link: "/about/"
 - Name: "news"
   Link: "#"
 - Name: "contact"
