@@ -37,19 +37,20 @@
       height: 100vh;
     }
     .header_title {
-      font-size: 160px;
+      font-size: 260px;
       font-weight: 700;
       z-index: 100;
-      margin-left: 130%;
+      // margin-left: 130%;
       color: $white_color;
       line-height: 1;
     }
     .title1{
-      margin-top: 10%;
+      // margin-top: 10%;
     }
     .header_copyright {
       color: $white_color;
-      margin-left: 195%;
+      float: right;
+      margin-right: 60px;
       font-size: 50px;
     }
   }
