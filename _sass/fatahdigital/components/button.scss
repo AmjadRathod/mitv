@@ -104,3 +104,31 @@
     }
   }
 }
+.mi_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slide_title {
+  text-align: center;
+  color: $white_color;
+  h1 {
+    font-weight: bold;
+    font-size: 42px;
+  }
+}
+.round_box {
+  height: 42px;
+  width: 42px;
+  border-radius: 100px;
+  background-color: $black_color;
+}
+.channel_title {
+  h1 {
+    font-weight: bold;
+  }
+  p {
+      color: $primery-color;
+  }
+}

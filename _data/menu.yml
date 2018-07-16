@@ -1,7 +1,7 @@
 - Name: "home"
   Link: "/"
 - Name: "shows"
-  Link: "#"
+  Link: "shows"
 - Name: "about"
   Link: "/about/"
 - Name: "news"

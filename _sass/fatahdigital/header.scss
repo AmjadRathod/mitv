@@ -19,9 +19,16 @@
   font-size: 16px;
   transition: all .5s;
   color: $nav_menu_color;
+  border-radius: 20px;
   &:hover{
-    color: $primery-color;
+    background-color: #f40d0c;
+    color: $white_color;
   }
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 5px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .header_hero{
   .carousel{

@@ -1,0 +1,15 @@
+.show_carousel {
+  .slide {
+    .slide_part1 {
+      background-color: $black_color;
+      position: relative;
+      height: 500px;
+      width: 100%;
+    }
+    .slide_part2 {
+      background-color: $white_color;
+      height: 500px;
+      width: 100%;
+    }
+  }
+}
