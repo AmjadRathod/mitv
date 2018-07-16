@@ -49,3 +49,19 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.subscribe_btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 250px;
+  background-color: $black_color;
+  text-align: center;
+  padding-top: 10px;
+  a{
+    color: $white_color;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

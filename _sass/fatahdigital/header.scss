@@ -29,6 +29,7 @@
     width: 100%;
     position: relative;
     background-color: $primery-color;
+    margin-bottom: 70px;
     .header_hero_img{
       position: absolute;
       top: -65px;
@@ -51,6 +52,21 @@
       float: right;
       margin-right: 60px;
       font-size: 50px;
+    }
+  }
+  .about_carousel {
+    .header_title {
+      font-size: 152px;
+    }
+    .title1 {
+      margin-top: 100px;
+    }
+    .header_hero_img{
+      position: absolute;
+      top: -65px;
+      left: 40px;
+      width: 75vh;
+      height: 125vh;
     }
   }
 }
