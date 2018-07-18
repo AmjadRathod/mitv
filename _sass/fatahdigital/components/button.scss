@@ -152,3 +152,19 @@
     }
   }
 }
+.voting_box {
+  padding: 50px;
+  background-color: $white_color;
+  position: relative;
+  top: 126%;
+  transform: translateY(-50%);
+  .hero1_title {
+    font-size: 32px;
+  }
+  .home_btn {
+    padding: 15px 105px;
+    position: absolute;
+    margin-top: -4px;
+    background: $black_color;
+  }
+}
