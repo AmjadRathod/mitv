@@ -1,0 +1,65 @@
+.shows_channel {
+  padding: 100px 0;
+  position: relative;
+  .list {
+    margin: 10px 0;
+    text-align: center;
+    .list_item {
+      list-style: none;
+      display: inline-block;
+      a {
+        color: #5d5d5d;
+        padding: 0 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        transition: all .5s;
+        &:hover {
+          // text-decoration: none;
+          color: $primery-color;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .shows_channel_title {
+    .home_channel_title {
+      top: 40%;
+    }
+    .play_btn {
+      top: 60%;
+    }
+  }
+  .channels_music {
+    &:hover {
+      background-color: #da1819;
+    }
+  }
+}
+.shows_hotest_video {
+  .img {
+    position: absolute;
+    z-index: 100;
+  }
+  .shadow_img {
+    width: 15%;
+  }
+  .man_img {
+    width: 35%;
+    left: 10px;
+  }
+  .box_1 {
+    height: 650px;
+    width: 100%;
+    background-color: #da1819;
+  }
+  .box_2 {
+    background-color: $white_color;
+  }
+}
+.shows_logo {
+  .home_hero_logo {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
