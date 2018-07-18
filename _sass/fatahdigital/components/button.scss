@@ -132,3 +132,23 @@
       color: $primery-color;
   }
 }
+.no_padding {
+  padding: 0;
+  overflow: hidden;
+}
+.video_box {
+  min-height: 250px;
+  width: 100%;
+  background-color: $black_color;
+  transition: all .5s;
+  .play_btn {
+    display: none;
+    transition: all .5s;
+  }
+  &:hover {
+    background-color: $primery-color;
+    .play_btn {
+      display: block;
+    }
+  }
+}
