@@ -1,0 +1,75 @@
+.news_details_header {
+  height: 100vh;
+  width: 100%;
+  background-color: #e8ebeb;
+  position: relative;
+  .aaa {
+    height: 100vh;
+
+    position: relative;
+    .play_btn {
+      background-color: $secondery-color;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      right: 0;
+      top: 25%;
+    }
+  }
+}
+.news_detail_hero {
+  .news_detail_box {
+    position: relative;
+    top: -250px;
+    background-color: $white_color;
+    box-shadow: 0px 13px 72.21px 14.79px rgba(196, 197, 198, 0.38);
+  }
+  .round_box {
+    height: 70px;
+    width: 70px;
+  }
+  .channel_title {
+    font-weight: bold;
+    h2 {
+      margin: 0;
+      text-transform: uppercase;
+    }
+  }
+  .play_box {
+    padding: 100px 0;
+    overflow: hidden;
+    position: relative;
+    .voting_box {
+      box-shadow: 0px 13px 72.21px 14.79px rgba(196, 197, 198, 0.38);
+      position: absolute;
+      top: 240px;
+      left: 7%;
+      width: 35%;
+      .primery_red_box {
+        top: -20px;
+        left: 100%;
+        transform: translateX(-50%);
+      }
+    }
+    .Skateboarding_box {
+      position: relative;
+      left: 10.81%;
+      overflow: hidden;
+      height: 480px;
+      background-color: $primery-color;
+      .play_btn {
+        height: 100px;
+        width: 100px;
+      }
+    }
+  }
+}
+.news_info_box {
+  .news_title {
+    font-size: 42px;
+  }
+  p {
+    font-size: 14px;
+    color: rgb(96, 97, 103);
+  }
+}

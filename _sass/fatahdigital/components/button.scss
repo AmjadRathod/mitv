@@ -196,3 +196,18 @@ h1{
   width: 100%;
   background-color: $secondery-color;
 }
+.share_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 100px;
+  background: $black_color;
+  color: $white_color;
+  i {
+      position: relative;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+}
