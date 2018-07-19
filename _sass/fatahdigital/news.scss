@@ -1,0 +1,100 @@
+.news_channel {
+  .voting_box {
+    top: 0;
+    transform: none;
+  }
+}
+.news_box {
+  transition: all .3s;
+  .wrapper {
+    padding: 70px 40px;
+  }
+  .Skateboarding_box {
+    min-height: 200px;
+    transition: all .3s;
+  }
+  .voting_box {
+    transition: all .3s;
+    padding: 0;
+    padding-right: 30px;
+    position: static;
+    transform: none;
+    .hero1_title {
+      font-size: 28px;
+    }
+  }
+  &:hover {
+    background: url("/assets/images/carousel_red_back.png") top left no-repeat, rgb(0,0,0);
+    .Skateboarding_box {
+      background-color: $primery-color;
+    }
+    .voting_box {
+      background: transparent;
+      color: $white_color;
+    }
+    .home_btn {
+      background: $primery-color;
+    }
+    .catagory {
+      color: $primery-color;
+    }
+  }
+}
+.news_slider {
+  padding: 70px 0;
+  .Skateboarding_box {
+    height: 500px;
+    .play_btn {
+      background: $secondery-color;
+      border: none;
+    }
+  }
+  .voting_box {
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    .primery_red_box {
+      position: absolute;
+      top: 25px;
+      right: 0;
+    }
+    .home_btn {
+      background-color: $primery-color;
+    }
+  }
+  .play_btn {
+    height: 100px;
+    width: 100px;
+  }
+}
+.news_logo {
+  .home_hero_logo {
+    background-color: transparent;
+    box-shadow: 0px 13px 72.21px 14.79px rgba(184, 185, 201, 0.38);
+  }
+}
+.news_slider2 {
+  position: relative;
+  .back_white {
+    height: 600px;
+    box-shadow: 0px 13px 72.21px 14.79px rgba(184, 185, 201, 0.38);
+    width: 100%;
+    background-color: $white_color;
+  }
+  .slider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    .active {
+      transform: scale(1.07);
+    }
+    .news_slider2_box {
+      background-color: $black_color;
+      transition: all .5s;
+      &:hover {
+        background-color: $secondery-color;
+      }
+    }
+  }
+}

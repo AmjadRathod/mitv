@@ -60,7 +60,13 @@
   }
   .slide {
     .slide_part1{
-
+      .voting_box {
+        .primery_red_box {
+          top: 0;
+          right: 0;
+          position: absolute;
+        }
+      }
     }
     .slide_part2 {
       background-color: $black_color;

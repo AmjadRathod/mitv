@@ -1,3 +1,6 @@
+h1{
+  line-height: 1;
+}
 .home_btn {
   padding: 15px 100px;
   background-color: $primery-color;
@@ -158,6 +161,13 @@
   position: relative;
   top: 126%;
   transform: translateY(-50%);
+  .primery_red_box {
+    height: 10px;
+    width: 100px;
+    position: relative;
+    top: 0;
+    background-color: $primery-color;
+  }
   .hero1_title {
     font-size: 32px;
   }
@@ -167,4 +177,22 @@
     margin-top: -4px;
     background: $black_color;
   }
+}
+.Skateboarding_box {
+  width: 100%;
+  min-height: 350px;
+  background-color: $black_color;
+  position: relative;
+}
+.catagory {
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+    color: $primery-color;
+  }
+}
+.news_slider2_box {
+  height: 540px;
+  width: 100%;
+  background-color: $secondery-color;
 }
