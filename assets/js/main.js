@@ -38,11 +38,8 @@ $( document ).ready(function() {
     }
   });
   $('.show_slider').slick({
-    // slidesToShow: 3,/
     slidesToScroll: 1,
-    autoplay: true,
-    // appendDots:'.slider_btn',
-    // arrows: false,
+    // autoplay: true,
     appendArrows: $('.slide-controls-arrow'),
     // prevArrow: $('.slide-arrow.arrow-prev'),
     nextArrow: $('.slide-arrow.arrow-next'),
