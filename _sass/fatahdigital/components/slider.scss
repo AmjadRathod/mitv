@@ -61,6 +61,9 @@
   .slide {
     .slide_part1{
       .voting_box {
+        position: absolute;
+        top: 200px;
+        transform: none;
         .primery_red_box {
           top: 0;
           right: 0;
@@ -79,6 +82,12 @@
   position: absolute;
   top: 50%;
   right: 0;
+  @media only screen and (max-width: 667px) {
+    top: 94%;
+    left: 50%;
+    transform: translateX(-50%);
+    right: unset;
+  }
   .slider_box {
     height: 5px;
     display: none;
@@ -86,7 +95,14 @@
     margin-bottom: 3px;
     width: 20px;
     background: $primery-color;
-
+    @media only screen and (max-width: 667px) {
+      position: absolute;
+      border-radius: 100px;
+      height: 10px;
+      width: 10px;
+      top: 25px;
+      left: -14px;
+    }
   }
   .slick-active {
     .slider_box {
@@ -95,10 +111,13 @@
   }
   li {
     list-style: none;
-    button {
-      background: none;
-      border: none;
-      content: none;
+    @media only screen and (max-width: 667px) {
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      a{
+        position: relative;
+      }
     }
     // display: inline-block;
   }

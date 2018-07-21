@@ -1,3 +1,8 @@
+.navbar-toggler-icon {
+  height: 3px;
+  width: 36px;
+  background: $primery-color;
+}
 .navbar-brand {
   font-weight: 900;
   color: #252a33;
@@ -43,6 +48,9 @@
       left: -140px;
       width: 130vh;
       height: 100vh;
+      @media only screen and (max-width: 667px) {
+          display: none;
+      }
     }
     .header_title {
       font-size: 260px;
@@ -50,9 +58,16 @@
       z-index: 100;
       color: $white_color;
       line-height: 1;
+      @media only screen and (max-width: 667px) {
+        font-size: 120px;
+        margin-left: -100px;
+      }
     }
     .title1{
       margin-top: 10px;
+      @media only screen and (max-width: 667px) {
+        margin-top: 100px;
+      }
     }
     .header_copyright {
       color: $white_color;
