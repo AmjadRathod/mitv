@@ -73,3 +73,55 @@
     }
   }
 }
+
+.slide-controls {
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  .slider_box {
+    height: 5px;
+    display: none;
+    margin-left: 15px;
+    margin-bottom: 3px;
+    width: 20px;
+    background: $primery-color;
+
+  }
+  .slick-active {
+    .slider_box {
+      display: inline-block;
+    }
+  }
+  li {
+    list-style: none;
+    button {
+      background: none;
+      border: none;
+      content: none;
+    }
+    // display: inline-block;
+  }
+}
+.slide-controls-arrow {
+  position: absolute;
+  top: 50px;
+  cursor: pointer;
+}
+.left_arrow {
+  height: 500px;
+  width: 160px;
+  // top: 0;
+  // width: 200px;
+  background: $primery-color;
+  position: absolute;
+  img {
+    z-index: 100;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+// -------------------
