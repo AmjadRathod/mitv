@@ -61,9 +61,9 @@ $( document ).ready(function() {
     }
   });
   ///////////////news slider
-  $('.news_slider21').slick({
+  $('.news_slider').slick({
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     appendArrows: $('.slide-controls-arrow'),
     prevArrow: $('.slide-arrow.arrow-prev'),
     nextArrow: $('.slide-arrow.arrow-next'),

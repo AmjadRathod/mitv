@@ -107,30 +107,20 @@
   position: absolute;
   top: 50px;
   cursor: pointer;
-}
-.left_arrow {
-  height: 500px;
-  width: 160px;
-  // top: 0;
-  // width: 200px;
-  background: $primery-color;
-  position: absolute;
-  img {
-    z-index: 100;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-.slider {
-  .news_slider2_box {
-    position: relative;
-    cursor: pointer;
-  }
-  .left {
-    height: 520px;
-    margin-top: 10px;
+  .left_arrow {
+    height: 500px;
+    width: 160px;
+    // top: 0;
+    // width: 200px;
+    background: $primery-color;
+    position: absolute;
+    img {
+      z-index: 100;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 }
 // -------------------

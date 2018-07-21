@@ -86,8 +86,10 @@
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    .active {
-      transform: scale(1.07);
+    .left {
+      cursor: pointer;
+      height: 520px;
+      margin-top: 80px;
     }
     .news_slider2_box {
       background-color: $black_color;
