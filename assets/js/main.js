@@ -40,24 +40,33 @@ $( document ).ready(function() {
   });
   $('.show_slider').slick({
     // slidesToShow: 3,/
-  slidesToScroll: 1,
-  autoplay: true,
-  // appendDots:'.slider_btn',
-  // arrows: false,
-  appendArrows: $('.slide-controls-arrow'),
+    slidesToScroll: 1,
+    autoplay: true,
+    // appendDots:'.slider_btn',
+    // arrows: false,
+    appendArrows: $('.slide-controls-arrow'),
     prevArrow: $('.slide-arrow.arrow-prev'),
     nextArrow: $('.slide-arrow.arrow-next'),
-  appendDots: '.slide-controls',
-  dots: true,
-  dotsClass: 'custom-dots',
-  customPaging: function (slider, i) {
-    //FYI just have a look at the object to find aviable information
-    //press f12 to access the console
-    //you could also debug or look in the source
-    console.log(slider);
-    var slideNumber = (i + 1),
-    totalSlides = slider.slideCount;
-    return '<a class="dot" role="button" title="' + slideNumber + ' of ' + totalSlides + '"><span class="string"> 0' + slideNumber + '</span><span class="slider_box"></span></a>';
+    appendDots: '.slide-controls',
+    dots: true,
+    dotsClass: 'custom-dots',
+    customPaging: function (slider, i) {
+      //FYI just have a look at the object to find aviable information
+      //press f12 to access the console
+      //you could also debug or look in the source
+      console.log(slider);
+      var slideNumber = (i + 1),
+      totalSlides = slider.slideCount;
+      return '<a class="dot" role="button" title="' + slideNumber + ' of ' + totalSlides + '"><span class="string"> 0' + slideNumber + '</span><span class="slider_box"></span></a>';
     }
+  });
+  ///////////////news slider
+  $('.news_slider21').slick({
+    slidesToScroll: 1,
+    autoplay: true,
+    appendArrows: $('.slide-controls-arrow'),
+    prevArrow: $('.slide-arrow.arrow-prev'),
+    nextArrow: $('.slide-arrow.arrow-next'),
+
   });
 });

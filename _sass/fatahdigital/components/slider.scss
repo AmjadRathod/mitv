@@ -123,5 +123,14 @@
     transform: translate(-50%, -50%);
   }
 }
-
+.slider {
+  .news_slider2_box {
+    position: relative;
+    cursor: pointer;
+  }
+  .left {
+    height: 520px;
+    margin-top: 10px;
+  }
+}
 // -------------------
