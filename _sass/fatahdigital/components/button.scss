@@ -34,6 +34,10 @@ h1{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  @media only screen and (max-width: 667px) {
+    left: 10%;
+    position: relative;
+  }
 }
 .home_channel_title {
   padding-top: 50px;
@@ -51,6 +55,9 @@ h1{
   padding-right: 70px;
   padding-top: 50px;
   padding-bottom: 50px;
+  @media only screen and (max-width: 667px) {
+    padding: 25px 35px;
+  }
 }
 .hero1_title {
   font-size: 72px;
@@ -80,7 +87,7 @@ h1{
   }
 }
 .channels_music {
-  height: 100%;
+  height: auto;
   width: 100%;
   background-color: $black_color;
   transition: all .5s;
