@@ -5,9 +5,16 @@ footer {
   }
   .navbar-brand {
     color: $white_color;
+    @media only screen and (max-width: 667px) {
+      display: block;
+      text-align: center;
+    }
   }
   .list {
     margin: 70px 0;
+    @media only screen and (max-width: 667px) {
+      margin: 15px 0;
+    }
     .list_item {
       list-style: none;
       .list_link {
@@ -24,15 +31,28 @@ footer {
   .copy_right{
     margin-top: 10px;
     color: $footer_link_color;
+    @media only screen and (max-width: 667px) {
+      text-align: center;
+    }
   }
   .footer_social {
     margin-top: 10px;
+    @media only screen and (max-width: 667px) {
+      margin: 0;
+    }
     .list {
       margin: 0;
       float: right;
+      @media only screen and (max-width: 667px) {
+        float: unset;
+        text-align: center;
+      }
       .list_item {
         display: inline-block;
         margin-left: 20px;
+        @media only screen and (max-width: 667px) {
+          margin: 0 10px;
+        }
         .list_link {
           line-height: normal;
           transition: all .5s;
