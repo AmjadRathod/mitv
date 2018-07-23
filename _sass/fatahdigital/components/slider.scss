@@ -1,6 +1,6 @@
 .show_carousel {
   .slide-controls {
-    @media only screen and (max-width: 667px) {
+    @media only screen and (max-width: 767px) {
       top: 102%;
     }
   }
@@ -14,7 +14,7 @@
         background: url("/assets/images/carousel_red_back.png") top left no-repeat, rgb(248,50,63);
         width: 100%;
         height: 600px;
-        @media only screen and (max-width: 667px) {
+        @media only screen and (max-width: 767px) {
           height: 560px;
         }
       }
@@ -22,7 +22,9 @@
   }
   .show_slider {
     .wrapper {
-      padding: 25px 25px;
+      @media only screen and (max-width: 767px) {
+        padding: 25px 25px;
+      }
     }
   }
   .slide {
@@ -45,7 +47,7 @@
       position: relative;
       height: 500px;
       width: 100%;
-      @media only screen and (max-width: 667px) {
+      @media only screen and (max-width: 767px) {
         height: 140px;
       }
     }
@@ -53,7 +55,7 @@
       background-color: $white_color;
       height: 500px;
       width: 100%;
-      @media only screen and (max-width: 667px) {
+      @media only screen and (max-width: 767px) {
         height: 360px;
       }
       .wrapper {
@@ -61,7 +63,10 @@
       }
       .home_btn {
         padding: 15px 50px;
-        @media only screen and (max-width: 667px) {
+        @media only screen and (max-width: 1024px) {
+          padding: 15px 22px;
+        }
+        @media only screen and (max-width: 800px) {
           padding: 15px 28px;
         }
         @media only screen and (max-width: 320px) {
@@ -75,7 +80,7 @@
       }
       .hero1_title {
         font-size: 64px;
-        @media only screen and (max-width: 667px) {
+        @media only screen and (max-width: 767px) {
           font-size: 36px;
           display: inline-block;
           span {
@@ -123,7 +128,7 @@
   position: absolute;
   top: 50%;
   right: 0;
-  @media only screen and (max-width: 667px) {
+  @media only screen and (max-width: 767px) {
     top: 92%;
     left: 50%;
     transform: translateX(-50%);
@@ -136,7 +141,7 @@
     margin-bottom: 3px;
     width: 20px;
     background: $primery-color;
-    @media only screen and (max-width: 667px) {
+    @media only screen and (max-width: 767px) {
       position: absolute;
       border-radius: 100px;
       height: 10px;
@@ -152,7 +157,7 @@
   }
   li {
     list-style: none;
-    @media only screen and (max-width: 667px) {
+    @media only screen and (max-width: 767px) {
       display: inline-block;
       margin-left: 10px;
       margin-right: 10px;
@@ -167,7 +172,7 @@
   position: absolute;
   top: 50px;
   cursor: pointer;
-  @media only screen and (max-width: 667px) {
+  @media only screen and (max-width: 767px) {
     display: none;
   }
   .left_arrow {
@@ -177,6 +182,9 @@
     // width: 200px;
     background: $primery-color;
     position: absolute;
+    @media only screen and (max-width: 1024px) {
+      width: 100px;
+    }
     img {
       z-index: 100;
       position: relative;

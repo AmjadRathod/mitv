@@ -1,3 +1,4 @@
+
 .shows_channel {
   padding: 100px 0;
   position: relative;
@@ -13,6 +14,18 @@
         margin-left: 25px;
         margin-right: 25px;
         transition: all .5s;
+        @media only screen and (max-width: 800px) {
+          margin: 0 10px;
+          padding: 0 10px;
+        }
+        @media only screen and (max-width: 767px) {
+          margin: 0 8px;
+          padding: 0 8px;
+        }
+        @media only screen and (max-width: 320px) {
+          margin: 0 4px;
+          padding: 0 4px;
+        }
         &:hover {
           // text-decoration: none;
           color: $primery-color;
@@ -21,36 +34,89 @@
       }
     }
   }
+  .mi_center {
+    position: absolute;
+  }
+    .home_channel_title {
+  }
   .shows_channel_title {
     .home_channel_title {
-      top: 40%;
+      top: 35%;
     }
     .play_btn {
       top: 60%;
+      @media only screen and (max-width: 800px) {
+        top: 65%;
+      }
     }
   }
   .channels_music {
+    height: 100%;
     &:hover {
       background-color: #da1819;
     }
   }
 }
 .shows_hotest_video {
+  .video_box {
+    @media only screen and (max-width: 767px) {
+      margin-bottom: 50px;
+    }
+  }
+  .home_content {
+    @media only screen and (max-width: 767px) {
+      text-align: center;
+      margin: 0 !important;
+    }
+  }
+  .hero1_title {
+    @media only screen and (max-width: 767px) {
+      font-size: 48px;
+    }
+    @media only screen and (max-width: 320px) {
+      font-size: 42px;
+    }
+  }
   .img {
     position: absolute;
     z-index: 100;
   }
   .shadow_img {
     width: 15%;
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
   }
   .man_img {
     width: 35%;
     left: 10px;
+    height: 74%;
+    @media only screen and (max-width: 1024px) {
+      width: 37%;
+      left: -20px;
+      height: 49%;
+      margin-top: 0;
+    }
+    @media only screen and (max-width: 800px) {
+      width: 36%;
+      left: -15px;
+      height: 52%;
+      margin-top: 60px;
+    }
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
   }
   .box_1 {
     height: 650px;
     width: 100%;
     background-color: #da1819;
+    @media only screen and (max-width: 800px) {
+      height: 580px;
+    }
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
   }
   .box_2 {
     background-color: $white_color;

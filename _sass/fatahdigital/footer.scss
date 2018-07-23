@@ -5,14 +5,14 @@ footer {
   }
   .navbar-brand {
     color: $white_color;
-    @media only screen and (max-width: 667px) {
+    @media only screen and (max-width: 767px) {
       display: block;
       text-align: center;
     }
   }
   .list {
     margin: 70px 0;
-    @media only screen and (max-width: 667px) {
+    @media only screen and (max-width: 767px) {
       margin: 15px 0;
     }
     .list_item {
@@ -31,26 +31,26 @@ footer {
   .copy_right{
     margin-top: 10px;
     color: $footer_link_color;
-    @media only screen and (max-width: 667px) {
+    @media only screen and (max-width: 767px) {
       text-align: center;
     }
   }
   .footer_social {
     margin-top: 10px;
-    @media only screen and (max-width: 667px) {
+    @media only screen and (max-width: 767px) {
       margin: 0;
     }
     .list {
       margin: 0;
       float: right;
-      @media only screen and (max-width: 667px) {
+      @media only screen and (max-width: 767px) {
         float: unset;
         text-align: center;
       }
       .list_item {
         display: inline-block;
         margin-left: 20px;
-        @media only screen and (max-width: 667px) {
+        @media only screen and (max-width: 767px) {
           margin: 0 10px;
         }
         .list_link {

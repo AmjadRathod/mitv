@@ -34,7 +34,7 @@ h1{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  @media only screen and (max-width: 667px) {
+  @media only screen and (max-width: 767px) {
     left: 10%;
     position: relative;
   }
@@ -58,7 +58,7 @@ h1{
   padding-right: 70px;
   padding-top: 50px;
   padding-bottom: 50px;
-  @media only screen and (max-width: 667px) {
+  @media only screen and (max-width: 767px) {
     padding: 25px 35px;
   }
 }
@@ -122,7 +122,7 @@ h1{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  @media only screen and (max-width: 667px) {
+  @media only screen and (max-width: 767px) {
     position: relative;
   }
 }
@@ -132,7 +132,7 @@ h1{
   h1 {
     font-weight: bold;
     font-size: 42px;
-    @media only screen and (max-width: 667px) {
+    @media only screen and (max-width: 767px) {
       font-size: 36px;
     }
     @media only screen and (max-width: 320px) {
@@ -228,5 +228,15 @@ h1{
       top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
+  }
+}
+.pr-1 {
+  @media only screen and   (max-width: 767px) {
+    padding: 0 !important;
+  }
+}
+.pl-1 {
+  @media only screen and (max-width: 767px) {
+    padding: 0 !important;
   }
 }
