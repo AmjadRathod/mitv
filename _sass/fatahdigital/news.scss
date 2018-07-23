@@ -1,13 +1,49 @@
 .news_channel {
+  @media only screen and (max-width: 767px) {
+    padding: 50px;
+  }
   .voting_box {
     top: 0;
     transform: none;
+    @media only screen and (max-width: 767px) {
+      padding: 40px 0 0 0;
+    }
+    .home_btn {
+      @media only screen and (max-width: 800px) {
+        padding: 15px 70px;
+      }
+      @media only screen and (max-width: 767px) {
+        padding: 15px 88px;
+      }
+      @media only screen and (max-width: 320px) {
+        padding: 15px 64px;
+      }
+    }
+  }
+}
+.news_post {
+
+  .play_btn {
+    @media only screen and (max-width: 767px) {
+      position: absolute;
+    }
+  }
+  .hero1_title {
+    font-size: 56px;
+    @media only screen and (max-width: 767px) {
+      font-size: 48px;
+    }
+    @media only screen and (max-width: 320px) {
+      font-size: 42px;
+    }
   }
 }
 .news_box {
   transition: all .3s;
   .wrapper {
-    padding: 70px 40px;
+    @media only screen and (max-width: 800px) {
+      padding: 35px 25px;
+    }
   }
   .Skateboarding_box {
     min-height: 200px;
@@ -19,6 +55,14 @@
     padding-right: 30px;
     position: static;
     transform: none;
+    .home_btn {
+      @media only screen and (max-width: 1024px) {
+        padding: 15px 64px;
+      }
+      @media only screen and (max-width: 320px) {
+        padding: 15px 76px;
+      }
+    }
     .hero1_title {
       font-size: 28px;
     }
@@ -53,6 +97,20 @@
     top: 50%;
     left: 50%;
     z-index: 100;
+    @media only screen and (max-width: 800px) {
+      left: 25%;
+    }
+    @media only screen and (max-width: 767px) {
+      left: 0;
+    }
+    .hero1_title {
+      @media only screen and (max-width: 800px) {
+        font-size: 28px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 36px;
+      }
+    }
     .primery_red_box {
       position: absolute;
       top: 25px;
@@ -60,11 +118,18 @@
     }
     .home_btn {
       background-color: $primery-color;
+      @media only screen and (max-width: 800px) {
+        padding: 15px 56px;
+      }
     }
   }
   .play_btn {
     height: 100px;
     width: 100px;
+    @media only screen and (max-width: 767px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 }
 .news_logo {

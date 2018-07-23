@@ -96,6 +96,11 @@
   }
 }
 .news_carousel {
+  .shows_background {
+    @media only screen and (max-width: 767px) {
+      height: 410px !important;
+    }
+  }
   .wrapper {
     padding-right: 0;
     margin-right: -.5px;
@@ -110,6 +115,42 @@
         position: absolute;
         top: 200px;
         transform: none;
+        @media only screen and (max-width: 1024px) {
+          top: 135px;
+        }
+        @media only screen and (max-width: 800px) {
+          top: 135px;
+          padding: 40px 25px;
+        }
+        @media only screen and (max-width: 767px) {
+          top: 60px;
+          padding: 40px 25px;
+        }
+        @media only screen and (max-width: 320px) {
+          top: 82px;
+          padding: 20px 15px;
+        }
+        .home_btn {
+          @media only screen and (max-width: 1024px) {
+            padding: 15px 90px;
+          }
+          @media only screen and (max-width: 800px) {
+            padding: 15px 64px;
+          }
+          @media only screen and (max-width: 767px) {
+            padding: 15px 50px;
+            margin-top: -14px;
+          }
+          @media only screen and (max-width: 320px) {
+            padding: 5px 42px;
+            margin-top: -14px;
+          }
+        }
+        .hero1_title {
+          @media only screen and (max-width: 767px) {
+          font-size: 18px;
+          }
+        }
         .primery_red_box {
           top: 0;
           right: 0;
@@ -119,6 +160,11 @@
     }
     .slide_part2 {
       background-color: $black_color;
+      .play_btn {
+        @media only screen and (max-width: 767px) {
+          position: absolute;
+        }
+      }
     }
   }
 }
