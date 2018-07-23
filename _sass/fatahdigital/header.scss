@@ -85,9 +85,25 @@
   .about_carousel {
     .header_title {
       font-size: 152px;
+      @media only screen and (max-width: 1024px) {
+        text-align: center;
+      }
+      @media only screen and (max-width: 800px) {
+        font-size: 100px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 62px;
+      }
+      @media only screen and (max-width: 320px) {
+        font-size: 52px;
+        text-align: right;
+      }
     }
     .title1 {
       margin-top: 100px;
+      @media only screen and (max-width: 1024px) {
+        margin-top: 0;
+      }
     }
     .header_hero_img{
       position: absolute;
@@ -95,6 +111,24 @@
       left: 40px;
       width: 75vh;
       height: 125vh;
+      @media only screen and (max-width: 1024px) {
+        top: 25%;
+        left: 70px;
+        width: 50vh;
+        height: 68vh;
+      }
+      @media only screen and (max-width: 800px) {
+        top: 23%;
+        left: 0;
+        width: 50vh;
+        height: 70vh;
+      }
+      @media only screen and (max-width: 767px) {
+        display: block;
+        top: 23%;
+        left: 40px;
+        width: 44vh;
+      }
     }
   }
 }
