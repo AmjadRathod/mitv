@@ -87,4 +87,11 @@ $( document ).ready(function() {
     nextArrow: $('.slide-arrow.arrow-next'),
 
   });
+  $('.news_slider_3').slick({
+    slidesToScroll: 1,
+    autoplay: true,
+    slidesToShow: 2,
+    arrows: false,
+    
+  });
 });
