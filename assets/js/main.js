@@ -92,6 +92,8 @@ $( document ).ready(function() {
     autoplay: true,
     slidesToShow: 2,
     arrows: false,
-    
+
   });
+  $('.vp-controls-wrapper').css('display: none !important');
+   $(".vp-title").css("display", "none");
 });
