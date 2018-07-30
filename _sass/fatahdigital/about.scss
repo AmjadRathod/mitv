@@ -87,7 +87,7 @@
 
     .home_hero_news {
       // background-color: $black_color;
-      background: url("assets/images/about_news_vector.png") right top no-repeat, url("assets/images/footer_backgound.png") left bottom no-repeat, rgb(0,0,0);
+      background: url("/assets/images/about_news_vector.png") right top no-repeat, url("/assets/images/footer_backgound.png") left bottom no-repeat, rgb(0,0,0);
       background-size: contain;
       color: $white_color;
     }
